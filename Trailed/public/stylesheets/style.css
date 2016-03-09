@@ -1,0 +1,640 @@
+@font-face {
+    font-family: 'Densia';
+    src: url(../fonts/densia-sans/DensiaSans.otf);
+}
+html {}
+body { 
+  font-family: sans-serif !important;
+  padding-top:51px;
+  background-color: #ededed; 
+}
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+
+/*------DESKTOP------------------------*/
+
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+  .logoTrail {
+    display: none;
+  }
+  .logoTrailDesk{
+    margin-top: 6px;
+  }
+  .logoTrailImg{
+    height: 40px;
+    margin-top:0px;
+    margin-right:10px;
+  }
+  .navbar-header {
+    width: 80% ;
+  }
+  .mainNavBar {
+    color: #FFFFFF ;
+    box-shadow: none ;
+    background-color: #94B1DC ;
+    background-image: none ;
+    border-color: #ffffff;
+  }
+  .navbar-default .navbar-brand {
+    color: #FFF;
+  }
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #FFF;
+    background-color: transparent;
+  }
+  .mainNavName{
+    border-color: #ffffff ;
+    text-shadow: none ;
+    float: none ;
+  }
+  .mainIcon{
+    background-color: #FFFFFF;
+  }
+  .mainNavLinks {
+    /*color: #FFFFFF ;
+    text-shadow: none ;*/
+    letter-spacing: 1px;
+  }
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    background-color: transparent;
+    text-shadow: none ;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    text-shadow: none ;
+  }
+  .mainNavButHome:hover{
+    background-color: #94B1DC ;
+  }
+  .mainNavBut:hover{
+    background-color: #94B1DC ;
+  }
+  .homePage{
+    background-image: url("../images/cover.jpg");
+    background-size:cover;
+    padding-top: 20px;
+    height: 100%;
+  }
+  .textContent {
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+  }
+  .btn-group.dropdown {
+    width: 30%;
+  }
+  .dropDownBar {
+    width: 100%;
+    text-align: left;
+  }
+  .dropDownBar:hover {
+    background-color: #fff;
+  }
+  .dropAndStart {
+    margin-top: 5%;
+    text-align: center;
+  }
+  .open>.dropdown-toggle.btn-default:hover{
+    background-color: #fff
+  }
+  .btn-default.active, .btn-default:active{
+    background-color: #fff;
+    border-color: #fff;  
+  }
+  .btn-default.focus, .btn-default:focus {
+     background-color: #fff;
+    border-color: #fff;  
+  }
+  .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+   
+    background-color: #fff;
+    border-color: #fff;
+  }
+  .btn-group-sm>.btn, .btn-sm {
+    border-radius: 0px ;
+  }
+
+  .btn-default {
+    background-image: none ;
+    text-shadow: 0 0px 0 #fff ;
+    border-color: #fff ;
+  }
+  .caretRight{
+    float: right;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+  .dropDownMenu{
+    width: 100%;
+    border-radius: 0px ;
+  }
+  .trailMeButton{
+    width: 10%;
+  }
+  .howItWorksSection{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    /*margin-left: 10%;*/
+    background-color: #ededed;
+  }
+  .howItworks{
+    /*background-color: #3498DB;*/
+    padding-top:0px;
+    height: 40px;
+  }
+  .howItWorksButton{
+
+  }
+  .spinner {
+    display: inline-block;
+    opacity: 0;
+    width: 0;
+
+    -webkit-transition: opacity 0.25s, width 0.25s;
+    -moz-transition: opacity 0.25s, width 0.25s;
+    -o-transition: opacity 0.25s, width 0.25s;
+    transition: opacity 0.25s, width 0.25s;
+  }
+  .has-spinner.active {
+    cursor:progress;
+  }
+
+  .has-spinner.active .spinner {
+    opacity: 1;
+    width: auto; /* This doesn't work, just fix for unkown width elements */
+  }
+  .has-spinner.btn.active .spinner {
+      width: 16px;
+  }
+  .fa-spin-custom, .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+  }
+  @-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+  }
+  @keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+  }
+
+/*List trail*/
+
+  .ListTrails{
+    background-color: #ededed;
+    /*height: max-content;*/
+    height: 100%;
+
+  }
+
+  .listTrailListGroup{
+    max-height: 600px;
+    overflow-y:scroll; 
+  }
+
+  .listTrailsThumbNail{
+    height: 200px;
+    width: 200px;
+  }
+  .navigationRow{
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    padding-top: 14px;
+  }
+  .navigationSlider{
+    height: 49px;
+    border-bottom-width: 1px solid;
+    background-color: #22366C;
+    border-bottom: 1px solid white;
+    color: #fff;
+    text-align: center;
+
+  }
+  .navSmallColLeft{
+    text-align: left;
+    padding-left: 0px !important;
+  }
+  .navSmallColRight{
+    text-align: right;
+    padding-right: 0px !important;
+  }
+  .navigationSliderLeft{
+    color: #fff;
+  }
+  .navigationSliderRight{
+    color: #fff;
+  }
+  .listTrailListGroup{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 0px !important;
+    /*box-shadow: none !important;*/
+  }
+  .listTrailslistItem{
+    margin:5%;
+  }
+  .listTrailslistItem{
+    border-radius: 0px !important;
+    margin: 15px !important;
+    padding: 0px 0px !important;
+    padding-top: 10px;
+  }
+  .listTrailsItemContent{
+    padding-top: 10px;
+  }
+
+
+  /*-------TRAIL-------*/
+
+
+  .trailContent{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #panelHeader{
+    height: 40%;
+    color: #FFF;
+
+  }
+  .mainPanel{
+    border-radius: 0px !important;
+    border: 0px solid transparent !important;
+  }
+  .trailHeaderContent{
+    text-align: center;
+    padding-top: 8px;
+  }
+  .trailPanel{
+    border-radius: 0px !important;
+    border: 0px solid transparent !important;
+  }
+  .trailPanelHeading{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    background-image: none !important;
+  }
+  .trailStartSection{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #B92125;
+  }
+  .paddingStart{
+    padding-top:10px;
+    height: 40px;
+  }
+  .paddingStartGoogle{
+    background-color: #3498DB;
+    padding-top:10px;
+    height: 40px;
+  }
+
+  .trailStartButton{
+    color: #fff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+
+
+.logoTrail{
+    text-align: center;
+    margin-top: 5px;
+    /* width: 100%; */
+    margin-left: 60px;
+}
+
+.logoTrailImg{
+  height: 6%;
+}
+.logoTrailDesk{
+  display: none;
+}
+
+/*HOME*/
+.spinner {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+
+  -webkit-transition: opacity 0.25s, width 0.25s;
+  -moz-transition: opacity 0.25s, width 0.25s;
+  -o-transition: opacity 0.25s, width 0.25s;
+  transition: opacity 0.25s, width 0.25s;
+}
+.has-spinner.active {
+  cursor:progress;
+}
+
+.has-spinner.active .spinner {
+  opacity: 1;
+  width: auto; /* This doesn't work, just fix for unkown width elements */
+}
+
+.has-spinner.btn.active .spinner {
+    width: 16px;
+}
+.fa-spin-custom, .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+
+  .mainNavBar {
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    background-color: #94B1DC !important;
+    background-image: none !important;
+    border-color: #ffffff !important;
+  }
+  .mainNavName{
+    border-color: #ffffff !important;
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+  }
+  .mainIcon{
+    background-color: #FFFFFF !important;
+  }
+  .mainNavLinks {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+    letter-spacing: 1px;
+  }
+  .mainNavButHome:hover{
+    background-color: #94B1DC !important;
+  }
+  .mainNavBut:hover{
+    background-color: #94B1DC !important;
+  }
+  .homePage{
+    background-image: url("../images/mobilebg.jpg");
+    background-size:cover;
+    padding-top: 20px;
+    height: 576px;
+  }
+  .textContent {
+    margin-top: 15%;
+    color: #fff;
+    text-align: center;
+  }
+  .btn-group.dropdown {
+    width: 90%;
+  }
+  .dropDownBar {
+    width: 100%;
+    text-align: left !important;
+  }
+  .dropDownBar:hover {
+    background-color: #fff !important;
+  }
+  .dropAndStart {
+    margin-top: 36%;
+    text-align: center;
+  }
+
+  /*drop down customizing*/
+  .btn-group-sm>.btn, .btn-sm {
+
+    border-radius: 0px !important;
+  }
+  .btn-default {
+    background-image: none !important;
+    text-shadow: 0 0px 0 #fff !important;
+    border-color: #fff !important;
+  }
+  .caretRight{
+        float: right;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+  .dropDownMenu{
+    width: 100%;
+    border-radius: 0px !important;
+  }
+  .trailMeButton{
+    width: 30%;
+    margin-top: 15%;
+  }
+  .howItWorksSection{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    /*margin-left: 10%;*/
+    background-color: #ededed;
+  }
+  .howItworks{
+    /*background-color: #3498DB;*/
+    padding-top:0px;
+    height: 40px;
+  }
+
+  /* LIST TRAIL */
+  .ListTrails{
+    background-color: #ededed;
+    height: 100%;
+  }
+  .navigationRow{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 14px;
+  }
+  .navigationSlider{
+    height: 49px;
+    border-bottom-width: 1px solid;
+    background-color: #22366C;
+    border-bottom: 1px solid white;
+    color: #fff;
+    text-align: center;
+
+  }
+  .navSmallColLeft{
+    text-align: left;
+  }
+  .navSmallColRight{
+    text-align: right
+  }
+  .navigationSliderLeft{
+    color: #fff;
+  }
+  .navigationSliderRight{
+    color: #fff;
+  }
+  .listTrailsThumbNail{
+    height: 100px;
+    width: 100px;
+  }
+  .listTrailslistItem{
+    border-radius: 0px !important;
+    margin: 15px !important;
+    padding: 0px 0px !important;
+    padding-top: 10px;
+  }
+  .listTrailsItemContent{
+    padding-top: 10px;
+  }
+  .panelP{
+        margin: 0 0 0px !important;
+  }
+  /*.TRAIL*/
+/*  .{
+    background-color: #ededed;
+  }*/
+  .trailContent{
+    background-color: #ededed;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 527px;
+    padding-top: 14px;
+  }
+  #panelHeader{
+    height: 120px;
+    color: #FFF;
+  }
+  .mainPanel{
+    border-radius: 0px !important;
+    border: 0px solid transparent !important;
+  }
+  .trailHeaderContent{
+    text-align: center;
+    padding-top: 8px;
+  }
+  .trailPanel{
+    border-radius: 0px !important;
+    border: 0px solid transparent !important;
+  }
+  .trailPanelHeading{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    background-image: none !important;
+  }
+  .trailStartSection{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: #B92125;
+  }
+  .paddingStart{
+    padding-top:10px;
+    height: 40px;
+  }
+  .paddingStartGoogle{
+    background-color: #3498DB;
+    padding-top:10px;
+    height: 40px;
+  }
+
+  .trailStartButton{
+    color: #fff;
+  }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

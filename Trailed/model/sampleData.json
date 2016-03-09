@@ -1,0 +1,235 @@
+[{
+  	"id": "swfuckguin",
+  	"name": "Sweet fucking Guiness",
+  	"longDescription": "This is long description blalalblblla dkfljasfkjhd sakjfha fdnsjkf. dffa fdsadfa  fdas ffdf asfdfjd fj",
+  	"shorDescription": "This is short description one line max",
+	"totalDistance": "3km",
+	"totalPubs":"2",
+	"foodAv": true,
+	"picture": "../images/pub.jpeg",
+	"origin": {
+		"name": "Guinness Storehouse",
+		"picture": "../images/pub.jpeg",
+		"description": "Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+		"lat": 53.3418772,
+		"lng": -6.2889033
+	},
+	"waypoints": [
+		{
+			"name": "Taco Taco",
+			"picture": "/images/pub.jpeg",
+			"description": "Walk in Taco bar",
+			"location": {
+				"lat": 53.3435764, 
+				"lng": -6.2661427
+			}, 
+			"stopover": true
+		},
+		{
+			"name": "Market Bar",
+			"picture": "/images/pub.jpeg",
+			"description": "Roaring ceilings and a no-music policy give unusually laid-back vibe to this bar with a tapas menu.",
+			"location": {
+				"lat": 53.3432113, 
+				"lng": -6.2655634
+			}, 
+			"stopover": true
+		}
+	],
+	"destination": {
+		"name": "Whitefriar Grill",
+		"picture": "/images/pub.jpeg",
+		"description": "Seafood, steaks and game dishes served in romantic style with candles recessed into brick walls.",
+		"lat": 53.3412576,
+		"lng": -6.2656063
+	},
+	"pubtype": ["trdtnl", "fd"]
+},
+{
+  	"id": "swfuckguin2",
+  	"name": "Sweet fucking Guiness 2",
+  	"longDescription": "This is long description blalalblblla dkfljasfkjhd sakjfha fdnsjkf. dffa fdsadfa  fdas ffdf asfdfjd fj",
+  	"shorDescription": "This is short description one line max",
+	"totalDistance": "3km",
+	"totalPubs":"2",
+	"foodAv": true,
+	"picture": "../images/pub.jpeg",
+	"origin": {
+		"name": "Guinness Storehouse",
+		"picture": "../images/pub.jpeg",
+		"description": "Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+		"lat": 53.3418772,
+		"lng": -6.2889033
+	},
+	"waypoints": [
+		{
+			"name": "Taco Taco",
+			"picture": "/images/pub.jpeg",
+			"description": "Walk in Taco bar",
+			"location": {
+				"lat": 53.3435764, 
+				"lng": -6.2661427
+			}, 
+			"stopover": true
+		},
+		{
+			"name": "Market Bar",
+			"picture": "/images/pub.jpeg",
+			"description": "Roaring ceilings and a no-music policy give unusually laid-back vibe to this bar with a tapas menu.",
+			"location": {
+				"lat": 53.3432113, 
+				"lng": -6.2655634
+			}, 
+			"stopover": true
+		}
+	],
+	"destination": {
+		"name": "Whitefriar Grill",
+		"picture": "/images/pub.jpeg",
+		"description": "Seafood, steaks and game dishes served in romantic style with candles recessed into brick walls.",
+		"lat": 53.3412576,
+		"lng": -6.2656063
+	},
+	"pubtype": ["fd"]
+},
+{
+  	"id": "swfuckguin3",
+  	"name": "Sweet fucking Guiness 3",
+  	"longDescription": "This is long description blalalblblla dkfljasfkjhd sakjfha fdnsjkf. dffa fdsadfa  fdas ffdf asfdfjd fj",
+  	"shorDescription": "This is short description one line max",
+	"totalDistance": "3km",
+	"totalPubs":"2",
+	"foodAv": true,
+	"picture": "../images/pub.jpeg",
+	"origin": {
+		"name": "Guinness Storehouse",
+		"picture": "../images/pub.jpeg",
+		"description": "Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+		"lat": 53.3418772,
+		"lng": -6.2889033
+	},
+	"waypoints": [
+		{
+			"name": "Taco Taco",
+			"picture": "/images/pub.jpeg",
+			"description": "Walk in Taco bar",
+			"location": {
+				"lat": 53.3435764, 
+				"lng": -6.2661427
+			}, 
+			"stopover": true
+		},
+		{
+			"name": "Market Bar",
+			"picture": "/images/pub.jpeg",
+			"description": "Roaring ceilings and a no-music policy give unusually laid-back vibe to this bar with a tapas menu.",
+			"location": {
+				"lat": 53.3432113, 
+				"lng": -6.2655634
+			}, 
+			"stopover": true
+		}
+	],
+	"destination": {
+		"name": "Whitefriar Grill",
+		"picture": "/images/pub.jpeg",
+		"description": "Seafood, steaks and game dishes served in romantic style with candles recessed into brick walls.",
+		"lat": 53.3412576,
+		"lng": -6.2656063
+	},
+	"pubtype": ["fd"]
+},
+{
+  	"id": "swfuckguin4",
+  	"name": "Sweet fucking Guiness 4",
+  	"longDescription": "This is long description blalalblblla dkfljasfkjhd sakjfha fdnsjkf. dffa fdsadfa  fdas ffdf asfdfjd fj",
+  	"shorDescription": "This is short description one line max",
+	"totalDistance": "3km",
+	"totalPubs":"2",
+	"foodAv": true,
+	"picture": "../images/pub.jpeg",
+	"origin": {
+		"name": "Guinness Storehouse",
+		"picture": "../images/pub.jpeg",
+		"description": "Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+		"lat": 53.3418772,
+		"lng": -6.2889033
+	},
+	"waypoints": [
+		{
+			"name": "Taco Taco",
+			"picture": "/images/pub.jpeg",
+			"description": "Walk in Taco bar",
+			"location": {
+				"lat": 53.3435764, 
+				"lng": -6.2661427
+			}, 
+			"stopover": true
+		},
+		{
+			"name": "Market Bar",
+			"picture": "/images/pub.jpeg",
+			"description": "Roaring ceilings and a no-music policy give unusually laid-back vibe to this bar with a tapas menu.",
+			"location": {
+				"lat": 53.3432113, 
+				"lng": -6.2655634
+			}, 
+			"stopover": true
+		}
+	],
+	"destination": {
+		"name": "Whitefriar Grill",
+		"picture": "/images/pub.jpeg",
+		"description": "Seafood, steaks and game dishes served in romantic style with candles recessed into brick walls.",
+		"lat": 53.3412576,
+		"lng": -6.2656063
+	},
+	"pubtype": ["fd"]
+},
+{
+  	"id": "swfuckguin5",
+  	"name": "Sweet fucking Guiness 5",
+  	"longDescription": "This is long description blalalblblla dkfljasfkjhd sakjfha fdnsjkf. dffa fdsadfa  fdas ffdf asfdfjd fj",
+  	"shorDescription": "This is short description one line max",
+	"totalDistance": "3km",
+	"totalPubs":"2",
+	"foodAv": true,
+	"picture": "../images/pub.jpeg",
+	"origin": {
+		"name": "Guinness Storehouse",
+		"picture": "../images/pub.jpeg",
+		"description": "Brewery experience telling the tale of Ireland's famous beer, with tastings and a rooftop bar.",
+		"lat": 53.3418772,
+		"lng": -6.2889033
+	},
+	"waypoints": [
+		{
+			"name": "Taco Taco",
+			"picture": "/images/pub.jpeg",
+			"description": "Walk in Taco bar",
+			"location": {
+				"lat": 53.3435764, 
+				"lng": -6.2661427
+			}, 
+			"stopover": true
+		},
+		{
+			"name": "Market Bar",
+			"picture": "/images/pub.jpeg",
+			"description": "Roaring ceilings and a no-music policy give unusually laid-back vibe to this bar with a tapas menu.",
+			"location": {
+				"lat": 53.3432113, 
+				"lng": -6.2655634
+			}, 
+			"stopover": true
+		}
+	],
+	"destination": {
+		"name": "Whitefriar Grill",
+		"picture": "/images/pub.jpeg",
+		"description": "Seafood, steaks and game dishes served in romantic style with candles recessed into brick walls.",
+		"lat": 53.3412576,
+		"lng": -6.2656063
+	},
+	"pubtype": ["fd"]
+}]

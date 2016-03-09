@@ -1,0 +1,26 @@
+[
+	{
+		"type": "Traditional",
+		"key": "trdtnl"
+	},
+	{
+		"type": "Live Music",
+		"key": "lvmsc"
+	},
+	{
+		"type": "Historic",
+		"key": "hstrc"
+	},
+	{
+		"type": "Food",
+		"key": "fd"
+	},
+	{
+		"type": "Guiness",
+		"key": "gnss"
+	},
+	{
+		"type": "Near me now",
+		"key": "nrmnw"
+	}
+]

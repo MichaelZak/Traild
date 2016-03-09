@@ -1,0 +1,66 @@
+
+<div class="homePage" >
+	<!-- <div class="homeCollapse"> -->
+		<!-- <div class="backImg"/> -->
+			<div class="textContent">
+				<h1 class="homeNameBackground">WELCOME</h1>
+
+		    	<h3>Follow the Dublin Pub Trail.</h3>
+		    </div>
+
+		    <div class="dropAndStart">
+			    <div class="btn-group " uib-dropdown is-open="status.isopen">
+		            <button 
+		                id="single-button" 
+		                type="button" 
+		                class="btn btn-default btn-sm dropDownBar" 
+		                uib-dropdown-toggle ng-disabled="disabled">
+		                <div class="dropDownOptions">
+		                {{dropdownHeading}} 
+		                <!-- <div> -->
+		                <span class="caret caretRight"></span>
+		            <!-- </div> -->
+		                </div>
+		                
+		            </button>
+		            <ul uib-dropdown-menu role="menu" aria-labelledby="single-button" class="dropDownMenu">
+		                <li ng-repeat="pubtype in pubtypes">
+		                    <a href  ng-click="onClickPubtype(pubtype)">{{pubtype.type}}</a>
+		                </li>
+		            </ul>
+			    </div>
+
+		   
+		   		<button id="idForTrailMeButton" type="button" class="btn btn-default btn-sm trailMeButton has-spinner" ng-class="{'disabled': disableButtons}" ng-click="onTrailMePress()" >Trail me  
+		   			<span class="spinner"><i class="glyphicon glyphicon-refresh glyphicon-spin"></i></span>
+		   		</button>
+		   	</div>
+		   	<div class="howItWorksSection">
+				<div class="howItworks">
+					<a  class="howItWorksButton" href ng-click="" >
+
+						<h2>HOW IT WORKS</h2>
+					</a>
+				</div>
+			</div>
+		    <!-- <div class="homeFooter">
+			    <div class='homeFooterHeader'>
+			    	
+			    	<a href class="colorLight" ng-click="onHowItWorkClick()">
+						<h2> How it works</h2>
+				 	</a>
+			    </div>
+		    </div> -->
+		</div>
+	<!-- </div> -->
+	<!-- <div class="howItWorks" >
+		<a href ng-click="onBackToTheTop()">
+			back to the top
+	 	</a>
+	 	<h2>How It Works</h2>
+	</div> -->
+<!-- <div class="homeFilter"></div>
+
+ -->
+
+</div>
