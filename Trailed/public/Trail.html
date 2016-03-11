@@ -1,64 +1,51 @@
-<div class="Trail" >
-
-	<div class="navigationSlider">
-		<div class="row navigationRow">
-			<div class="col-xs-2 navSmallColLeft">
-				<a href class="navigationSliderLeft" ng-click="onTrailPressRight(trail)">
-					<span class="glyphicon glyphicon-menu-left navigationSliderIcons"></span>
-			 	</a>
-			</div>
-			<div class="col-xs-8 trailNameNavBar">
-				<div class="navigationTitle">
-				{{trail.name}}
-				</div>
-			</div>
-			<div class="col-xs-2 navSmallColRight">
-				<a href class="navigationSliderRight" ng-click="onTrailPressRight(trail)">
-					<span class="glyphicon glyphicon-menu-right navigationSliderIcons"></span>
-			 	</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="trailContent">
-		<div class="panel mainPanel">
-			<div  id="panelHeader" ng-style="{{headerImg}}" class="trailHeader">
-				<div class="trailHeaderContent">
-					<h4 class="h3Trail">{{trail.name}}</h4>
-					{{trail.longDescription}}
-					<p>{{trail.totalDistance}}</p>
-				</div>
-			</div>
-			<div class="panel-group trailPanelGroup" id="accordion">
-				<div class="panel panel-default trailPanel" ng-repeat="detail in details">
-					<div class="panel-heading trailPanelHeading">
-						<h4 class="panel-title">
-						    <a data-toggle="collapse" data-parent="#accordion" data-target="#collapse-{{$index}}" href>
-						    {{detail.name}} <span class="caret caretRight"></span></a> 
-						   <!--  <span class="glyphicon glyphicon-triangle-bottom"></span> -->
-						</h4>
-					</div>
-					<div id="collapse-{{$index}}" class="panel-collapse collapse">
-						<div class="panel-body">
-						{{detail.description}}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="trailStartSection">
-			<div class="paddingStartGoogle">
-				<a  class="trailStartButton" href ng-click="onTrailStartPress()" >
-
-					Start Trail
-				</a>
-			</div>
-			<div class="paddingStart">
-				<a  class="trailStartButton" href ng-click="onTrailStartPress()" >
-				View Map
-				</a>
-			</div>
-		</div>
-	</div>
-	
-</div>
+<section>
+  <div class="navigationSlider textAlignCenter">
+    <div class="row navigationSliderRow">
+      <div class="col-xs-2 navSmallColLeft">
+        <a href class="navigationSliderLeft" ng-click="onTrailPressRight(trail)">
+          <span class="glyphicon glyphicon-menu-left navigationSliderIcons"></span>
+        </a>
+      </div>
+      <div class="col-xs-8">
+        <div class="navigationTitle"> {{trail.name}} </div>
+      </div>
+      <div class="col-xs-2 navSmallColRight">
+        <a href class="navigationSliderRight" ng-click="onTrailPressRight(trail)">
+          <span class="glyphicon glyphicon-menu-right navigationSliderIcons"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="trailContent">
+    <div class="panel">
+      <div  id="panelHeader" ng-style="{{headerImg}}" class="trailHeader">
+        <div class="trailHeaderContent">
+          <h4>{{trail.name}}</h4>
+          {{trail.longDescription}}
+          <p>{{trail.totalDistance}}</p>
+        </div>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default" ng-repeat="detail in details">
+          <div class="panel-heading trailPanelHeading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" data-target="#collapse-{{$index}}" href>
+              {{detail.name}} <span class="caret caretRight"></span></a> 
+            </h4>
+          </div>
+          <div id="collapse-{{$index}}" class="panel-collapse collapse">
+            <div class="panel-body"> {{detail.description}} </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trailStartSection">
+      <div class="paddingStartGoogle">
+        <a  class="trailStartButton" href ng-click="onTrailStartPress()" > Start Trail </a>
+      </div>
+      <div class="paddingStart">
+        <a  class="trailStartButton" href ng-click="onTrailStartPress()" > View Map </a>
+      </div>
+    </div>
+  </div>  
+</section>

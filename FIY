@@ -16,6 +16,12 @@ Start node
 
 
 
+Git
+list git reps
+git remote -v
+remove remote
+git remote remove origin
+
 
 ###################
 

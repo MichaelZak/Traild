@@ -1,0 +1,232 @@
+.homeImagebackground{
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url("../images/cover.jpg");
+  background-size:cover;
+  padding-top: 50px;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+.homeContent{
+  color: #FFF;
+  top:50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  /*z-index: 9999;*/
+  margin-top: 10%;
+}
+.caretRight{
+  float: right;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-right: 0px;
+}
+.spinner {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+
+  -webkit-transition: opacity 0.25s, width 0.25s;
+  -moz-transition: opacity 0.25s, width 0.25s;
+  -o-transition: opacity 0.25s, width 0.25s;
+  transition: opacity 0.25s, width 0.25s;
+}
+.has-spinner.active {
+  cursor:progress;
+}
+.has-spinner.active .spinner {
+  opacity: 1;
+  width: auto; /* This doesn't work, just fix for unkown width elements */
+}
+.has-spinner.btn.active .spinner {
+    width: 16px;
+}
+.fa-spin-custom, .glyphicon-spin {
+  -webkit-animation: spin 1000ms infinite linear;
+  animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+  }
+}
+.btn-group.dropdown{
+  margin-top: 10%;
+  width: 100%;
+  margin-left: 10%;
+}
+#single-button{
+  text-align: left;
+}
+.dropDownBar{
+  width: 80%;
+}
+.dropdown-menu {
+  min-width: 80%;
+  border-radius: 0;
+}
+.trailMeButton{
+  margin-top: 10%;
+}    
+.footerContent{
+  margin-top: 4%;
+}
+.navigationSlider{
+  height: 50px;
+  border-bottom-width: 1px solid white;
+  background-color: #22366C;
+  /*border-bottom: 1px solid white;*/
+  color: #fff;
+  margin-top: 50px;
+}
+.navigationSliderRow{
+  margin-right: 4%;
+  margin-left: 4%;
+  padding-top: 14px;
+}
+.navSmallColLeft{
+  text-align: left;
+  padding-left: 0;
+}
+.navSmallColRight{
+  text-align: right;
+  padding-right: 0;
+}
+.list-group{
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 0;
+  /*box-shadow: none !important;*/
+}
+.listTrailslistItem{
+  margin: 4% 0 4% 0;
+  border-radius: 0 ;
+  
+}
+.listTrailsItemContent{
+  padding-top: 10px;
+}
+.list-group-item:last-child{
+  border-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.list-group-item:first-child{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.listTrailsThumbNail{
+  height: 100px;
+  width: 100px;
+}
+.panelP{
+  margin: 0 0 0;
+}
+.trailContent{
+  background-color: #ededed;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 527px;
+  padding-top: 14px;
+}
+.panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.panel {
+  border-radius: 0;
+  border: 0 solid transparent;
+}
+.panel-heading {
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+}
+#panelHeader{
+  height: 120px;
+  color: #FFF;
+}
+.trailHeaderContent{
+  text-align: center;
+  padding-top: 8px;
+}
+.trailPanelHeading{
+  background-color: #fff;
+  border-color: #fff ;
+  background-image: none;
+}
+.trailStartSection{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  background-color: #B92125;
+}
+.paddingStart{
+  padding-top:10px;
+  height: 40px;
+}
+.paddingStartGoogle{
+  background-color: #3498DB;
+  padding-top:10px;
+  height: 40px;
+}
+.trailStartButton{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

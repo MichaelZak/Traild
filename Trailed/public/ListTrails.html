@@ -1,50 +1,41 @@
-<div class="ListTrails" >
-
-		<div class="navigationSlider">
-			<div class="row navigationRow">
-				<div class="col-xs-2 navSmallColLeft">
-					<a href class="navigationSliderLeft" ng-click="onTrailTypePressLeft(typeSelection)">
-						<span class="glyphicon glyphicon-menu-left navigationSliderIcons"></span>
-				 	</a>
-				</div>
-				<div class="col-xs-8">
-					<div class="navigationTitle">
-					{{typeSelection.type}}
-					</div>
-				</div>
-				<div class="col-xs-2 navSmallColRight">
-					<a href class="navigationSliderRight" ng-click="onTrailTypePressRight(typeSelection)">
-						<span class="glyphicon glyphicon-menu-right navigationSliderIcons"></span>
-				 	</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="list-group listTrailListGroup">
-			<div ng-repeat="trail in trails" >
-			 	<a href class="list-group-item clearfix listTrailslistItem" ng-click="onTrailPress(trail)" >
-			  		<div class="row">
-						<div class="col-xs-4 listTrailsItemImage">
-							<img  class="listTrailsThumbNail" ng-src="{{trail.origin.picture}}">
-						</div>
-	  					<div class="col-xs-7 listTrailsItemContent">
-	  						<h5 class="list-group-item-heading">{{trail.name}}</h5>
-	  						<div><p class="panelP">{{trail.shorDescription}}</p>
-
-	  						
-	  						</div>
-	  						<div class="distanceDesc">distance to {{trail.totalDistance}}</div>
-	  					</div>
-	  					<div class="col-xs-1 listTrailsItemNavIcon">
-	  						<div class="listTrailsItemNavIconContent"></div>
-	  					</div>
-					</div>
-				</a>
-			</div>
-		</div>
-	
-</div>
-
+<section>
+  <div class="navigationSlider textAlignCenter">
+    <div class="row navigationSliderRow">
+      <div class="col-xs-2 navSmallColLeft">
+        <a href class="navigationSliderLeft" ng-click="onTrailTypePressLeft(typeSelection)">
+          <span class="glyphicon glyphicon-menu-left navigationSliderIcons"></span>
+        </a>
+      </div>
+      <div class="col-xs-8">
+        <div class="navigationTitle"> {{typeSelection.type}} </div>
+      </div>
+      <div class="col-xs-2 navSmallColRight">
+        <a href class="navigationSliderRight" ng-click="onTrailTypePressRight(typeSelection)">
+          <span class="glyphicon glyphicon-menu-right navigationSliderIcons"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="list-group">
+    <div ng-repeat="trail in trails" >
+      <a href class="list-group-item clearfix listTrailslistItem" ng-click="onTrailPress(trail)" >
+        <div class="row">
+          <div class="col-xs-4 ">
+            <img  class="listTrailsThumbNail" ng-src="{{trail.origin.picture}}">
+          </div>
+          <div class="col-xs-7 listTrailsItemContent">
+            <h5 class="list-group-item-heading">{{trail.name}}</h5>
+            <div> <p class="panelP"> {{trail.shorDescription}} </p> </div>
+            <div class="distanceDesc">distance to {{trail.totalDistance}}</div>
+          </div>
+          <div class="col-xs-1">
+            <div class=""></div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 
 

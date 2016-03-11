@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'QuattrocentoSans';
+    src: url(../fonts/quattrocento-sans/QuattrocentoSans-Regular.ttf);
+}
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+	height: 100%;
+	font-family: 'QuattrocentoSans';
+  /* Margin bottom by footer height */
+ /* margin-bottom: 50px;*/
+  background-color: #ededed; 
+}
+a:focus, a:hover {
+  text-decoration: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+}
+.navbar{
+	color: #FFF ;
+  box-shadow: none ;
+  background-color: #94B1DC ;
+  background-image: none ;
+  border-color: #FFF ;
+}
+.navbar-default .navbar-nav>li>a{
+  color: inherit;
+}
+.navbar-default .navbar-brand {
+  color: inherit;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	color: inherit;
+  background-color: inherit;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+.btn{
+  border-radius: 0px ;
+  border: 0px solid transparent;
+}
+/*------------- HELPER CLASSES --------------*/
+.textAlignCenter{
+  text-align: center; 
+}
+.textAlignLeft{
+  text-align: left;
+}
+.textAlignRight{
+  text-align: left;
+}
