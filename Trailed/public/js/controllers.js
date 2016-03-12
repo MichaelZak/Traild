@@ -151,92 +151,10 @@ TraildControllers.controller('HomeController', function($scope, $location, helpe
     }
 });
 TraildControllers.controller('ListTrailsController', function($scope, $location, $routeParams, helperService, trailsService, menuService){
-  // var tempMap = [  // REWRITE
-  //  {
-  //    "type": "Traditional",
-  //    "key": "trdtnl"
-  //  },
-  //  {
-  //    "type": "Live Music",
-  //    "key": "lvmsc"
-  //  },
-  //  {
-  //    "type": "Historic",
-  //    "key": "hstrc"
-  //  },
-  //  {
-  //    "type": "Food",
-  //    "key": "fd"
-  //  },
-  //  {
-  //    "type": "Guiness",
-  //    "key": "gnss"
-  //  },
-  //  {
-  //    "type": "Near me now",
-  //    "key": "nrmnw"
-  //  }
-  // ];
-
-  // $scope.pubtypes = helperService.getPubTypes();
 
   var selection = helperService.getSelection();
-  // if (selection === undefined) {
-  //  var selection = {
-  //    "type": $routeParams.trailType,
-  //    "key" : ""
-  //  }
-
-  //  for (var i = 0; i < tempMap.length; i++) {
-  //    if (tempMap[i].type === selection.type) {
-  //      selection.key = tempMap[i].key;
-  //    }
-  //  }
-     
-  // }
-  
-  // if (selection.type === "Near me now") {
-  //  //$scope.getDistanceFromLatLonInKm()
-  //  console.log(helperService.getLocation());
-  // }
-
-
-   $scope.typeSelection = selection;
-  // $scope.trails = trailsService.query(selection);
-  // helperService.storeTrails($scope.trails);
-
-
-  // if ($routeParams.trailType === "Food") {
-  //  var options = {
-  //    enableHighAccuracy: true,
-      
-  //    maximumAge: 0
-  //  };
-
-  //  function success(pos) {
-  //    var crd = pos.coords;
-  //    var myLocation = {
-  //      lat: crd.latitude,
-  //      lng: crd.longitude
-  //    };
-
-  //      selection.myLocation = myLocation;
-
-  //    $scope.typeSelection = selection;
-  //    $scope.trails = trailsService.query(selection);
-  //    helperService.storeTrails($scope.trails);
-      
-  //  };
-
-  //  function error(err) {
-  //    console.warn('ERROR(' + err.code + '): ' + err.message);
-  //  };
-
-  //  navigator.geolocation.getCurrentPosition(success, error, options);
-  // }
-
+  $scope.typeSelection = selection;
   $scope.trails = helperService.getTrails();
-  
   
   $scope.onTrailTypePressLeft = function(param){
     for (var i = 0; i < $scope.pubtypes.length; i++) {

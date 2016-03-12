@@ -151,7 +151,7 @@
   background-color: #ededed;
   padding-left: 15px;
   padding-right: 15px;
-  height: 527px;
+  /*height: 527px;*/
   padding-top: 14px;
 }
 .panel-group .panel {
@@ -188,6 +188,8 @@
   height: 80px;
   width: 100%;
   background-color: #B92125;
+  padding-right: 0;
+  padding-left: 0;
 }
 .paddingStart{
   padding-top:10px;
@@ -201,7 +203,11 @@
 .trailStartButton{
   color: #fff;
 }
-
+.trailMap{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
 
 
 

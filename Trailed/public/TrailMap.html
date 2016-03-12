@@ -1,25 +1,12 @@
-
-<div class="trailMap" >
-	
-
-
-<ng-map zoom="15" center="53.3445161, -6.2701397">
-			<!-- <directions 
-	          draggable="true"
-	          panel="directions-panel"
-	          travel-mode="WALKING"
-	          waypoints="{{wayPoints}}"
-	          origin="{{origin}}"
-	          destination="{{destination}}">
-	        </directions> -->
-	        <directions 
-	        draggable="false" 
-	        panel="directions-panel" 
-	        travel-mode="WALKING" 
-	        origin="[{{trail.origin.lat}},{{trail.origin.lng}}]"
-	        waypoints="{{waypoints}}" 
-	        destination="[{{trail.destination.lat}},{{trail.destination.lng}}]">
-	        </directions>
-</ng-map>
-
+<div>  
+  <ng-map zoom="15" center="53.3445161, -6.2701397" class="trailMap" >
+    <directions 
+      draggable="false" 
+      panel="directions-panel" 
+      travel-mode="WALKING" 
+      origin="[{{trail.origin.lat}},{{trail.origin.lng}}]"
+      waypoints="{{waypoints}}" 
+      destination="[{{trail.destination.lat}},{{trail.destination.lng}}]">
+    </directions>
+  </ng-map>
 </div >
