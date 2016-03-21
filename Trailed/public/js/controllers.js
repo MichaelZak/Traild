@@ -214,6 +214,21 @@ TraildControllers.controller('TrailController', function($scope, $location, $rou
     $scope.headerImg = {'background-image':'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(' + $scope.trail.picture + ')'};
     $("#panelHeader").css($scope.headerImg);
 
+    this.fnContructHrefLink = function() {
+       // Construct start map href link
+      var sLink = "https://www.google.com/maps/dir/" + $scope.trail.origin.lat +"+"+ $scope.trail.origin.lng + "/"
+      //https://www.google.com/maps/dir/{{trail.origin.lat}}+{{trail.origin.lng}}/{{trail.destination.lat}}+{{trail.destination.lng}}
+
+      for (var j = 0; j < $scope.trail.waypoints.length; j++) {
+        sLink = sLink + $scope.trail.waypoints[j].location.lat +"+"+ $scope.trail.waypoints[j].location.lng + "/"
+      }
+
+      sLink = sLink + $scope.trail.destination.lat +"+"+ $scope.trail.destination.lng
+
+      $scope.startTrailLink = sLink;
+    }
+
+
     $scope.details = [];
     var stop = {
       name: $scope.trail.origin.name,
@@ -234,6 +249,8 @@ TraildControllers.controller('TrailController', function($scope, $location, $rou
       description: $scope.trail.destination.description
     }
     $scope.details.push(stop);
+
+    this.fnContructHrefLink();
   }
 
   if ($scope.trail === undefined) {

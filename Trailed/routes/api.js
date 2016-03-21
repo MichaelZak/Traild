@@ -17,15 +17,14 @@ router.route('/trails')
   			if (error) {
   				return handleError(error);
   			}
-  			if (request.query.lat === false || request.query.lng === false) {
+  			if (request.query.lat === "false" || request.query.lng === "false") {
   				return response.send(trails);
   			} else {
   				var aSortedTrails  = helper.orderByDistanceTrails({"latitude": request.query.lat , "longitude":request.query.lng}, trails);
   				return response.send(aSortedTrails);
   			}
-  			//var aSortedTrails  = helper.orderByDistanceTrails({"latitude": request.query.lat , "longitude":request.query.lng}, trails);		
-  			//return response.send(trails);
-			})
+
+		})
 	}); 
 
 router.route('/trail/:id')	//api for specific post

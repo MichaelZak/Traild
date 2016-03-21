@@ -1,5 +1,6 @@
 <div>  
   <ng-map zoom="15" center="53.3445161, -6.2701397" class="trailMap" >
+
     <directions 
       draggable="false" 
       panel="directions-panel" 
@@ -8,5 +9,12 @@
       waypoints="{{waypoints}}" 
       destination="[{{trail.destination.lat}},{{trail.destination.lng}}]">
     </directions>
+
+    <!-- Customer marker code. It overlays googles marker -->
+    <!-- <custom-marker id="start" position="[{{trail.origin.lat}},{{trail.origin.lng}}]">
+      <div><b>Hi, USA</b>
+      </div>
+    </custom-marker> -->
+    
   </ng-map>
 </div >
